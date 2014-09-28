@@ -1,5 +1,8 @@
 scriptId = 'com.thalmic.scripts.gmail'
 
+
+--Function to bring in password from keepass
+	
 function enterpass()
     myo.keyboard("u", "press", "control", "shift")
 end
